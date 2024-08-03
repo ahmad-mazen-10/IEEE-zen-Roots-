@@ -1,0 +1,456 @@
+.mainSection {
+  margin-top: 80px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 50%;
+  h1 {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-size: 96px;
+    margin: 10px 0;
+  }
+  h5 {
+    font-weight: 200;
+    font-size: 32px;
+    margin: 10px 0;
+  }
+}
+.rightImg {
+  width: 454px;
+}
+
+.btnRead {
+  width: 180px;
+  height: 59px;
+  text-align: center;
+  background-color: #b498b9;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 22px;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+/*==================== Services section ================== */
+section.services {
+  margin-top: 104px;
+  h1 {
+    text-align: center;
+    color: #3f3541;
+    margin-bottom: 48px;
+  }
+  .rowServices {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .oneService {
+    text-align: center;
+    margin-bottom: 64px;
+    border: 1px solid #b498b940;
+    border-radius: 49% 49% 0 0;
+    width: 23%;
+    height: 300px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0;
+    img {
+      margin-bottom: 20px;
+      width: 60%;
+    }
+    h4 {
+      font-size: 32px;
+      font-weight: 600;
+    }
+  }
+}
+
+/* ------------------- joinNow  -------------------- */
+.joinNow {
+  margin-top: 80px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 50%;
+  h3 {
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 10px 0;
+  }
+  p {
+    font-weight: 200;
+    font-size: 24px;
+    margin: 24px 0;
+  }
+}
+.btnJoin {
+  width: 180px;
+  height: 59px;
+  text-align: center;
+  margin-top: 14px;
+  background-color: #b498b9;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 22px;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+/* ------------------- Our Users Opinions  -------------------- */
+
+section.opinions {
+  margin: 80px 0 100px;
+  h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .users {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 32px;
+  }
+  .omar {
+    background-image: url(../assets/bg_persons//bg_omar.png);
+  }
+  .menna {
+    background-image: url(../assets/bg_persons//bg_menna.png);
+  }
+  .tarek {
+    background-image: url(../assets/bg_persons//bg_tarek.png);
+  }
+  .omar,
+  .menna,
+  .tarek {
+    width: 30%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 40px;
+  }
+  .oneUser {
+    background-image: url(../assets/bg_persons/BG_person.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 50%;
+    top: 220px;
+  }
+  .userOpinion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: -10px;
+
+    img {
+      margin: 20px 0;
+      left: 86px;
+      top: 20px;
+      position: relative;
+    }
+    h4 {
+      text-align: center;
+      font-size: 20px;
+      font-weight: 600;
+    }
+    p {
+      text-align: center;
+      width: 100%;
+      font-size: 20px;
+      font-weight: 500;
+    }
+  }
+  .rating {
+    margin-top: 10px;
+    img {
+      margin: 0 2px;
+    }
+  }
+
+  .oneUserTarek .userOpinion img {
+    width: 74px;
+    height: 74px;
+    left: 154px;
+    position: relative;
+  }
+}
+
+/* ------------------- download App  -------------------- */
+section.downloadApp {
+  margin: 80px 0 0 0;
+  background-color: #cbabd0;
+  height: 740px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px;
+  h1 {
+    color: #fff;
+    font-size: 36px;
+    margin-bottom: 24px;
+  }
+  .allImgs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .rowStores {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .store {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #000;
+    margin: 12px;
+    padding: 16px 24px;
+    border-radius: 24px;
+    color: #fff;
+    font-size: 12px;
+    img {
+      margin: 10px;
+    }
+    span {
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+}
+
+/* =============== RESPONSIVE STYLES ================== */
+/* For smaller screens, adjust layout */
+@media (max-width: 768px) {
+  .mainSection {
+    flex-direction: column;
+    text-align: center;
+  }
+  .txt,
+  .rightImg {
+    width: 100%;
+    margin: 0;
+  }
+  .oneService {
+    width: 45%; /* Example of adjusting service item width */
+  }
+}
+
+/* Example of media queries for responsiveness */
+@media (max-width: 1024px) {
+  .mainSection,
+  .joinNow {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .rightImg {
+    width: 100%;
+    max-width: 400px; /* Example of limiting width on smaller screens */
+  }
+  .txt {
+    width: 90% !important;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .btnRead,
+  .btnJoin {
+    text-align: center;
+    margin: 24px auto;
+  }
+  .rowServices {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .oneService {
+    width: 40% !important;
+    height: 20% !important;
+  }
+
+  .oneUserTarek .userOpinion img {
+    width: 74px;
+    height: 74px;
+    left: 100px !important;
+    position: relative;
+  }
+  .store p span {
+    color: #fff;
+  }
+}
+
+@media (max-width: 768px) {
+  .mainSection,
+  .joinNow {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-around;
+    width: 100% !important;
+    height: auto;
+  }
+  .mainSection .rightImg img,
+  .joinNow .rightImg img {
+    width: 1000px !important;
+    height: 1000px;
+    position: relative;
+    left: -80%;
+  }
+  .rightImg img,
+  .oneService img {
+    width: 100% !important;
+  }
+  .txt {
+    width: 90% !important;
+    text-align: center;
+    margin-top: 20px;
+  }
+  h1 {
+    font-size: 86px !important;
+  }
+  .mainSection h5,
+  .joinNow p {
+    font-size: 58px !important;
+    width: 90% !important;
+    position: relative;
+    left: 0;
+  }
+
+  .btnRead,
+  .btnJoin {
+    text-align: center;
+    margin: 24px auto;
+    font-size: 54px;
+    width: auto;
+    height: auto;
+  }
+
+  .rowServices {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .oneService {
+    width: 60% !important;
+    height: 20% !important;
+    h4 {
+      font-size: 86px !important;
+      margin-top: 24px !important;
+    }
+  }
+  .users {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: space-around;
+    margin-top: 32px;
+    align-items: center;
+      .omar,
+  .menna,
+  .tarek {
+    width: 80% !important;
+    height: 1000px !important;
+    margin: 20px;
+  }
+  }
+  .oneUser {
+    background-size: contain !important;
+    position: relative;
+    width: 100%;
+    height: 50%;
+    top: 40% !important;
+    .user{
+   img{
+    width: 30%;
+    left: 210px !important;
+    position: relative;
+   }
+   h4{
+    font-size: 48px !important;
+    margin-top: 30px;
+   }
+    }
+}
+.userOpinion{
+  p{
+    font-size: 40px !important;
+    left: 10px !important;
+    position: relative;
+  }
+}
+  .oneUserTarek .userOpinion img {
+    width: 30% !important;
+    height: 30% !important;
+    left: 210px !important;
+    position: relative;
+  }
+  .rating{
+    img{
+      width: 44px !important;
+      margin-bottom: 40px !important;
+    }
+  }
+  /* ====================== */
+  section.downloadApp{
+    height: 1000px;
+    img{
+      width: 50%;
+    }
+  .rowStores img{
+      width: 80px;
+    }
+    section.downloadApp .rowStores p{
+      width: auto !important;
+      margin: 0 !important;
+      text-align: center !important;
+      font-size: 48px;
+    }
+    .store{
+      width: 30% !important;
+      position: relative;
+      left: 20% !important;
+      margin: 20px;
+padding: 20px ;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .txt {
+    font-size: 18px; /* Example of adjusting font size for smaller screens */
+  }
+}

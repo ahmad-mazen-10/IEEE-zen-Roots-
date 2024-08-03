@@ -1,0 +1,98 @@
+  .contact{
+    margin-top:100px;
+    margin-bottom:100px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    
+  }
+    
+  .contact-1{
+    width:48%;
+  }
+  .contact-2{
+    width:40%;
+  }
+  .contact-1 h1{
+    margin-top:25%;
+    padding-top:20px;
+    font-size:32px;
+    color:#B498B9;
+    font-weight:bold;
+    padding-bottom:30px;
+  }
+  span{
+    color:#3F3541;;
+  }
+  .contact-1 p{
+    font-size:20px;
+    font-weight:200;
+    color:#707176;
+  }
+  
+  .img-frame{
+    margin-top:15%;
+    width:60%;
+    object-fit: cover;
+  }
+  
+  /* ================================================== */
+
+  /* For tablets and smaller screens */
+@media (max-width: 1024px) {
+  .contact {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+}
+.contact-1{
+    width:40%;
+  }
+.contact-1 p {
+    width: 130%;
+    height: 96px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #707176;
+}
+  .contact-2{
+    width:40%;
+  }
+  .contact-1, .contact-2 {
+    text-align: center;
+    margin: 0;
+  }
+}
+
+/* For mobile devices */
+@media only screen and  (max-width: 768px) {
+  .contact {
+    display: flex;
+    flex-direction: column-reverse !important;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%
+}
+
+.contact-1 h1 {
+  font-size: 28px;
+}
+.contact-1 p {
+    margin: 20px 0  !important;
+    width: 600px !important;
+    position: relative;
+    left: -110px;
+    text-align: center !important;
+    font-size: 26px !important;
+}
+.img-frame {
+    margin-top: 15%;
+    width: 100%;
+    object-fit: cover;
+}
+}
